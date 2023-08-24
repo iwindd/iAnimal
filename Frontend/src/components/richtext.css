@@ -1,0 +1,21 @@
+.quill {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 4px;
+
+}
+
+.quill p{
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+.ql-toolbar.ql-snow {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.ql-container.ql-snow {
+    border-radius: 0px 0px 4px 4px;
+}
