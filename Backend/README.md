@@ -1,5 +1,7 @@
 ### 
 
+COMPOSER : https://getcomposer.org/
+
 #วิธีติดตั้ง
 1. composer install
 2. เปลี่ยนชื่อไฟล์ .env.example -> .env
