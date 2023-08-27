@@ -26,7 +26,7 @@ import React from 'react';
 function Index() {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
-    const { isLogged, Logout, isAdmin, FetchingUser } = useAuthContext()
+    const { isLogged, Logout, isAdmin } = useAuthContext()
     const navigate = useNavigate();
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget);
