@@ -32,6 +32,7 @@ class AnimalController extends Controller
                     ->where('likes.user_id', $userId)
                     ->select('id');
             }, 'like_id')
+            ->orderBy('animals.id', 'desc')
             ->get();
 
         return $animals;
