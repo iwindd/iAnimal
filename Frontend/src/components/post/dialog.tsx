@@ -165,7 +165,7 @@ const Index: React.FC<DialogProps> = (props) => {
             aria-describedby="alert-dialog-slide-description"
         >
             <DialogTitle>{title}</DialogTitle>
-            <DialogContent sx={{ overflow: "hidden" }}>
+            <DialogContent >
                 <Divider sx={{ my: 2 }} />
                 <Grid container>
                     <Grid item md={4} sx={{ pr: 2 }}>
