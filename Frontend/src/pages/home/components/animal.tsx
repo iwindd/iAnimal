@@ -89,7 +89,14 @@ const AnimalCard: React.FC<Animal> = (props) => {
                     <Typography
                         variant="body2"
                         color="text.secondary"
-                        dangerouslySetInnerHTML={{ __html: props.detail }}
+                    
+                        dangerouslySetInnerHTML={
+                            { 
+                                __html: props.detail.length > 300
+                                ? props.detail.substring(0, 300) + "..."
+                                : props.detail
+                            }
+                        }
                     >
                     </Typography>
                 </CardContent>

@@ -28,7 +28,7 @@ const AnimalDetailView: React.FC<AnimalDetailViewProps> = ({ open, onClose, anim
 
     return (
         <Dialog
-            maxWidth='xs'
+            maxWidth='md'
             fullWidth
             open={open}
             onClose={onClose}
