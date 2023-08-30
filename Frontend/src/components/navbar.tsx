@@ -146,7 +146,6 @@ function Index() {
                             <Tooltip title="ลงทะเบียนเข้าใช้">
                                 <IconButton
                                     onClick={() => {
-                                       /*  if (FetchingUser) return; */
                                         navigate('/signin')
                                     }}
                                 >
