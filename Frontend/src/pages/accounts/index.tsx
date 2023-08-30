@@ -48,7 +48,7 @@ const Index = () => {
                 <Divider sx={{ my: 3 }}></Divider>
 
                 <Grid container spacing={2}>
-                    <Grid item xs={6} md={4}>
+                    <Grid item xs={12} md={4}>
                         {
                             items.map((item, pageId) => {
                                 return (
@@ -66,7 +66,7 @@ const Index = () => {
                             })
                         }
                     </Grid>
-                    <Grid item xs={6} md={8}>
+                    <Grid item xs={12} md={8}>
                         {items[currentPage].page}
                     </Grid>
                 </Grid>
