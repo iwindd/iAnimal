@@ -99,7 +99,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
             password_confirmation
         })
             .then(async () => {
-                await navigate('/signin');
+                await navigate('/');
+                await getUser();
                 useWarning("สมัครสมาชิกสำเร็จ!", "success");
             })
             .catch((e) => {
