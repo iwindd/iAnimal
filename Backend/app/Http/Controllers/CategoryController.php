@@ -30,9 +30,9 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'title' => 'required'
+            'title' => ['required', 'max:255', 'unique:'.Category::class]
         ]);
-
+        
         try {
             Category::create($request->post());
 
