@@ -7,5 +7,5 @@ Laravel
 วิธีติดตั้งอยู่ใน README ของ Backend, Frontend
 
 
-// DATABASE แนะนำให้ migrate จาก BACKEND
+// DATABASE แนะนำให้ migrate จาก Laravel
   
